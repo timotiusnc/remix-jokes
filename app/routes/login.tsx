@@ -24,11 +24,12 @@ function validatePassword(password: unknown) {
 
 function validateUrl(url: any) {
   console.log(url);
-  let urls = ["/jokes", "/", "https://remix.run", "/jokes/new"];
-  if (urls.includes(url)) {
-    return url;
-  }
-  return "/jokes";
+  return url;
+  // let urls = ["/jokes", "/", "https://remix.run", "/jokes/new"];
+  // if (urls.includes(url)) {
+  //   return url;
+  // }
+  // return "/jokes";
 }
 
 type ActionData = {
